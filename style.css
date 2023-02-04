@@ -2,13 +2,18 @@ body {
     margin: 0px;
     min-height: 100vh;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
 }
 
 .picture {
     background-image: url(./backg.jpg);
     background-position: center;
     background-size: cover;
-    width: 45vw;
+    width: 40vw;
     height: 100vh;
+}
+
+.content {
+    background: #070909;
+    width: 60vw;
 }
