@@ -35,9 +35,6 @@ a {
     background-color: black;
     opacity: 0.4;
 
-    /* add blur effect */
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
 }
 
 .content {
