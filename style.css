@@ -29,12 +29,28 @@ a {
 
 .branding {
     position: absolute;
-    height: 10rem;
+    height: 8rem;
     width: inherit;
     margin-bottom: 38rem;
-    background-color: black;
-    opacity: 0.4;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.8rem;
 
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.branding > h1 {
+    font-weight: 400;
+}
+
+.logo {
+    background-image: url(./odin-lined.png);
+    height: inherit;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 10rem;
 }
 
 .content {
