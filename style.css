@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lekton&display=swap');
 
+:root {
+    --pic-width: 40vw;
+    --text-size: 1.2rem;
+}
+
 body {
     margin: 0px;
     min-height: 100vh;
@@ -17,14 +22,14 @@ a {
     background-image: url(./backg.jpg);
     background-position: center;
     background-size: cover;
-    width: 40vw;
+    width: var(--pic-width);
     height: 100vh;
 
     display: flex;
     align-items: flex-end;
     justify-content: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: var(--text-size);
 }
 
 .branding {
@@ -33,7 +38,7 @@ a {
     width: inherit;
     margin-bottom: 38rem;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 0.8rem;
+    padding: 0.8rem 0px;
 
     display: flex;  
     justify-content: center;
@@ -54,7 +59,21 @@ a {
 }
 
 .content {
+    box-sizing: border-box;
     background-color: #070909;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.34'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-    width: 60vw;
+    width: calc(100% - var(--pic-width));
+
+    color: white;
+    font-size: 2rem;
+    padding: 2.5rem;
+}
+
+.intro {
+    margin-top: 5rem;
+}
+
+.intro > p {
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
