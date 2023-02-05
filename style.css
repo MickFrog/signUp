@@ -34,6 +34,10 @@ input {
     width: 28rem;
 }
 
+label > span {
+    color: var(--invalid-color);
+}
+
 .picture {
     background-image: url(./backg.jpg);
     background-position: center;
