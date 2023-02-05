@@ -19,11 +19,6 @@ a {
     color: var(--text-color);
 }
 
-.userForm {
-    font-size: 1.5rem;
-    margin-top: 2rem;
-}
-
 .picture {
     background-image: url(./backg.jpg);
     background-position: center;
@@ -82,4 +77,18 @@ a {
 .intro > p {
     margin-bottom: 0px;
     margin-top: 0px;
+}
+
+.userForm {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+}
+
+.userForm > div {
+    display: flex;
+    flex-flow: column wrap;
 }
