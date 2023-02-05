@@ -3,7 +3,6 @@
 :root {
     --pic-width: 40vw;
     --content-width: calc(100% - var(--pic-width));
-    --text-size: 1.2rem;
     --text-color: #FDFFFC;
 }
 
@@ -20,6 +19,11 @@ a {
     color: var(--text-color);
 }
 
+.userForm {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
 .picture {
     background-image: url(./backg.jpg);
     background-position: center;
@@ -31,7 +35,7 @@ a {
     align-items: flex-end;
     justify-content: center;
     color: var(--text-color);
-    font-size: var(--text-size);
+    font-size: 1.2rem;
 }
 
 .branding {
