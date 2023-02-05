@@ -81,6 +81,8 @@ input {
 
     color: var(--text-color);
     font-size: 2rem;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .intro {
@@ -94,12 +96,13 @@ input {
 }
 
 .userForm {
+    flex: 1 0 1;
     font-size: 1.5rem;
     margin-top: 2.5rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    padding: 2.5rem;
+    padding: 2rem;
     background-color: #070909;    
 }
 
@@ -120,4 +123,12 @@ input {
 
 #submitBtn:active {
     background: var(--general-border-color);
+}
+
+.footer {
+    font-size: 1.2rem;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: .2rem;
 }
