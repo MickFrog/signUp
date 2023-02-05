@@ -125,7 +125,7 @@ label > span {
     font-size: 2rem;
     border: 2px solid var(--valid-color);
     background: transparent;
-    color: #F6BD60;
+    color: var(--text-color);
     border-radius: 2px;
 }
 
