@@ -43,7 +43,7 @@ label > span {
 }
 
 .picture {
-    background-image: url(./backg.jpg);
+    background-image: url(./images/backg.jpg);
     background-position: center;
     background-size: cover;
     width: var(--pic-width);
@@ -73,7 +73,7 @@ label > span {
 }
 
 .logo {
-    background-image: url(./odin-lined.png);
+    background-image: url(./images/odin-lined.png);
     height: inherit;
     background-size: contain;
     background-repeat: no-repeat;
