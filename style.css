@@ -23,7 +23,7 @@ a {
 
 input {
     background: rgba(0, 0, 0, 0.5);
-    border: 2px solid #A8DCD9; 
+    border: 1px solid #A8DCD9; 
     color: var(--text-color);
     font-size: 1.2rem;
     margin: .5rem 0;
@@ -80,11 +80,11 @@ input {
 
     color: var(--text-color);
     font-size: 2rem;
-    padding: 2.5rem;
 }
 
 .intro {
     margin-top: 5rem;
+    margin-left: 2.5rem;
 }
 
 .intro > p {
@@ -94,14 +94,15 @@ input {
 
 .userForm {
     font-size: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    
+    padding: 2.5rem;
+    background-color: #070909;    
 }
 
-.userForm > div {
+.userForm > .inDivs {
     display: flex;
     flex-flow: column wrap;
 }
