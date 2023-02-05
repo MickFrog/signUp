@@ -41,7 +41,6 @@ input {
     width: var(--pic-width);
 
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     color: var(--text-color);
     font-size: 1.2rem;
@@ -51,7 +50,7 @@ input {
     position: absolute;
     height: 8rem;
     width: inherit;
-    margin-bottom: 38rem;
+    top: 5rem;
     background-color: rgba(0, 0, 0, 0.3);
     padding: 0.8rem 0px;
 
