@@ -141,7 +141,6 @@ label > span {
     padding-bottom: .2rem;
 }
 
-#userEmail:not(:focus):not(:placeholder-shown):invalid, 
-#userCont:not(:focus):not(:placeholder-shown):invalid {
+input:not(:focus):not(:placeholder-shown):invalid{
     border: 1px solid var(--invalid-color);
 }
