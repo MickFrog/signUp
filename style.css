@@ -19,6 +19,18 @@ a {
     color: var(--text-color);
 }
 
+input {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #A8DCD9; /*02C39A*/
+    color: var(--text-color);
+    font-size: 1.2rem;
+    margin: .5rem 0;
+    padding-left: .5rem;
+    border-radius: 5px;
+    height: 2rem;
+    width: 28rem;
+}
+
 .picture {
     background-image: url(./backg.jpg);
     background-position: center;
