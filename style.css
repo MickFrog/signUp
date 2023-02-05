@@ -4,6 +4,7 @@
     --pic-width: 40vw;
     --content-width: calc(100% - var(--pic-width));
     --text-color: #FDFFFC;
+    --general-border-color: #A8DCD9;
     --valid-color: #02C39A;
     --invalid-color: #EC4067;
 }
@@ -23,7 +24,7 @@ a {
 
 input {
     background: rgba(0, 0, 0, 0.5);
-    border: 1px solid #A8DCD9; 
+    border: 1px solid var(--general-border-color); 
     color: var(--text-color);
     font-size: 1.2rem;
     margin: .5rem 0;
@@ -105,4 +106,18 @@ input {
 .userForm > .inDivs {
     display: flex;
     flex-flow: column wrap;
+}
+
+#submitBtn {
+    flex-basis: 40%;
+    height: 3rem;
+    font-family: inherit;
+    font-size: 2rem;
+    border: 2px solid var(--general-border-color);
+    background: var(--valid-color);
+    border-radius: 2px;
+}
+
+#submitBtn:active {
+    background: var(--general-border-color);
 }
