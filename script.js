@@ -1,2 +1,3 @@
-const form = document.querySelector(".userForm");
-const confirmPwd = document.querySelector(".pwdError");
+// const form = document.querySelector(".userForm");
+const userPass = document.querySelector("#userpwd");
+const confirmPass = document.querySelector("#confirmPwd");

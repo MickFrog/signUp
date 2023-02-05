@@ -144,3 +144,8 @@ label > span {
 input:not(:focus):not(:placeholder-shown):invalid{
     border: 1px solid var(--invalid-color);
 }
+
+.passError {
+    color: var(--invalid-color);
+    font-size: 1.2rem;
+}
