@@ -66,6 +66,8 @@ label > span {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+
+    flex: 1 0 1;
 }
 
 .branding > h1 {
